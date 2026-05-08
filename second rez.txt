@@ -1,0 +1,97 @@
+.
+.
+Gregory Dalbey
+Madison, Wisconsin, United States greg.dalbey@gmail.com HOME: (608) 832-6333 MOBILE: (608) 636-6233
+https://www.linkedin.com/in/greg-dalbey-4b59702/
+SUMMARY
+Seasoned software engineer with a passion for bringing new, innovative software solutions to life, helping companies modernize, and making
+users happy. I have over 28 years of professional software development experience covering a wide variety of projects and environments.
+Outside of work, I enjoy keeping my skills sharp by taking online courses and working on personal projects that can help me be the best
+engineer I can be and to be more effective on the job. Currently, I am learning Kubernetes and Docker, experimenting with local cluster
+deployments, and taking a course in Next JS, incorporating the class project into my local Kubernetes cluster.
+EXPERIENCE
+Senior Software Engineer
+Musicnotes.com June 2016 -March 2024, Madison, WI
+• Migrated legacy Access-based royalties configuration application to modern .Net Core stack.
+• Designed and implemented a batch royalties reporting system, reducing reporting time form 24 hours to less than 2 hours.
+• Designed system for generating formatted Publisher-facing royalties reports, saving 2 weeks worth of manual labor per quarter.
+Designed and implemented a new email message processor, responsible for generating over 1,000,000 e-receipts, newsletters, and abandon
+cart (and other) emails to our customers yearly.
+•
+• Modernized Hal Leonard music purchase pipeline, removing the reliance on obsolete and unsupported software.
+• Instrumental in migrating all legacy, internally facing applications to modern practices.
+Provided architectural expertise and oversight for the modernization of our monolith commerce website and internally facing software
+applications.
+•
+Developed key features on our commerce website, including a new digital music books product line, Pro Membership discount club, Educators
+Discount feature, Wish List, and many more.
+•
+Software Engineer
+Sonic Foundry January 2015 - June 2016, Madison, WI
+Implemented accessibility for the visually impaired within the Mediasite media player platform which serves thousands of students' and
+employees' video instructional needs.
+•
+• Maintenance of all Javascript and Flash-based media players within Sonic Foundry's Mediasite application.
+• Worked tightly with SQA to provide build-specific hot-fixes as requested by customers.
+• Designed comparative performance metrics across several media delivery platforms.
+• Implemented cohesive, standardized keyboard control across all media players within the Mediasite platform.
+Software Developer Consultant
+Yahara Software December 2012 - January 2015, Madison, WI
+• Developed distributed, online livestock auction application using WPF, SignalR and Sql Server.
+• Integration of medical pipetting automation technology with modern control and program automation interface.
+• Implementation of new features into legacy data-acquisition applications
+• Analysis and development of a wide variety of solutions using Asp .Net MVC, Jquery and Sql Server.
+Applications Developer
+UW Facilities Planning & Management January 2006 - December 2011, Madison, WI
+• Redesign of time tracking application serving over 2,000 UW employees across many departments.
+• Maintenance of UW Madison parking registration application, serving all of UW Madison on-campus parking.
+Migration and redesign of the UW Office of Resource Development class registration portal, serving 10,000 plus individual faculty
+registrations yearly.
+•
+Upgrade billing protocol for UW College of Engineering copy production portal, which serves bulk printing needs across all of UW Madison
+campus.
+•
+• Development and maintenance of various other UW department portal applications.
+PROJECTS
+Royalties Reporting Batch Processor
+Musicnotes • December 2023 - January 2024
+Architectural design and implementation of the Batch Processor, which generates over 5000 individual raw and formatted royalties reports
+quarterly.
+•
+.
+.
+• Project lead, overseeing 3 developers and a DBAs in the implementation process
+• Organized design and requirements gathering meetings
+• Migrated legacy reporting applications from legacy Access into a modern .Net 6 solution.
+• Reduced reporting time form over 24 hours to under 2 hours per quarter.
+• Reduced manual reporting format from 7 days per quarter to mere hours.
+Musicnotes Push Processor
+Musicnotes • August 2023 - October 2023
+• Designed new processor for generating images and previews for a new product line, digital music books.
+• Integration of new Azure Sql schema data into legacy data models.
+Hal Leonard Purchase Pipeline
+Musicnotes • January 2023 - April 2023
+• Migrated critical purchasing functionality out of obsolete code into a .Net 6 solution.
+• New implementation unlocks the full API available from the Hal Leonard Digital Access Management portal.
+• New implementation opened a new avenue of product to acquire and sell on the commerce website.
+• Integration into legacy Access applications with a design eye toward modern usage post Access applications deprecated.
+Royalties System Migration
+Musicnotes • June 2020 - January 2021
+• Migrated royalties configuration system to Blazor and .Net 6 from legacy Access.
+• Led analysis of legacy royalties system.
+• Realized hours of time saved per week with modern stream-lined system, which serves over 2000 publishers.
+Queued Message Processor
+Musicnotes • January 2019 - May 2019
+• Architectural design and implementation of customer emailing system.
+• Integration with Adobe ACS marketing platform.
+• Fail-safe email system serves over 1,000,000 eReceipts, newsletters, abandon cart (and more) customer emails yearly.
+Pro Membership
+Musicnotes • January 2017 - June 2017
+• Data design multi-tiered Pro Membership subscription model, serving over 80,000 active subscribers.
+• Integration with 3rd-party payment processor to handle subscriptions.
+• Implementation of web-hook API for handling recurrent rebilling, and other subscription activity.
+EDUCATION
+Bachelor of Science in Computer Science
+Minor in Music • North Central University • Naperville, IL • 1995
+SKILLS
+.Net 6, .Net Core, ASP .Net, ASP .Net MVC, Blazor, React JS, JQuery, Sql Server

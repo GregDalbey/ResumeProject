@@ -1,0 +1,292 @@
+:root {
+  color: #172033;
+  background: #f4f7fb;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #172033;
+  background:
+    radial-gradient(circle at top right, #eff6ff 0%, #f4f7fb 40%, #f4f7fb 100%);
+}
+
+a {
+  color: #1e40af;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.site-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: min(960px, 100% - 2rem);
+  margin: 0 auto;
+}
+
+.site-header {
+  background: linear-gradient(145deg, #0b1220 0%, #0f1b33 60%, #1c2f53 100%);
+  color: #e2e8f0;
+  padding: 2.25rem 0 1.75rem;
+  border-bottom: 1px solid #1f365f;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2.1rem;
+  letter-spacing: 0.02em;
+}
+
+.site-tagline {
+  margin: 0.5rem 0 1rem;
+  color: #d5deed;
+  max-width: 65ch;
+}
+
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 0.95rem;
+}
+
+.main-nav {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: #d6deee;
+  padding: 0.38rem 0.68rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+}
+
+.nav-link:hover {
+  background: #172843;
+  border-color: #2f4770;
+  text-decoration: none;
+}
+
+.nav-link-active {
+  background: #2e5fb8;
+  color: #fff;
+  border-color: #5e84cb;
+}
+
+.site-main {
+  flex: 1;
+  padding: 2rem 0 2.35rem;
+}
+
+.page h2 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  color: #0f172a;
+  font-size: 1.95rem;
+  line-height: 1.2;
+}
+
+.lead {
+  color: #2f4058;
+  margin-bottom: 1.25rem;
+  font-size: 1.08rem;
+}
+
+.kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.78rem;
+  color: #385b95;
+  font-weight: 700;
+}
+
+.hero-panel {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  border: 1px solid #d8e3f1;
+  border-radius: 1rem;
+  padding: 1.3rem 1.2rem;
+  box-shadow: 0 7px 22px rgba(10, 22, 50, 0.07);
+}
+
+.impact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.impact-chip {
+  background: #e9f1ff;
+  color: #1a3f83;
+  border: 1px solid #c8dafb;
+  border-radius: 999px;
+  padding: 0.22rem 0.7rem;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.executive-cards {
+  margin-top: 1.25rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d7e2ef;
+  border-radius: 0.95rem;
+  padding: 1.05rem;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+.cta-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid #2f67c9;
+  color: #1c4aa5;
+  padding: 0.48rem 0.9rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  text-decoration: none;
+  background: #eaf1ff;
+}
+
+.button-primary {
+  background: #2b5fb7;
+  color: #fff;
+  border-color: #2b5fb7;
+}
+
+.button-primary:hover {
+  background: #254f98;
+}
+
+.button-light {
+  background: rgba(231, 240, 255, 0.1);
+  border-color: rgba(160, 186, 232, 0.65);
+  color: #e3ecff;
+}
+
+.button-light:hover {
+  background: rgba(231, 240, 255, 0.2);
+}
+
+.project-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.project-card ul {
+  padding-left: 1.2rem;
+}
+
+.project-card li {
+  margin: 0.4rem 0;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.resume-content {
+  margin-top: 1rem;
+}
+
+.resume-content h1,
+.resume-content h2,
+.resume-content h3 {
+  color: #0f172a;
+}
+
+.resume-content h1 {
+  font-size: 1.5rem;
+}
+
+.resume-content h2 {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.25rem;
+}
+
+.resume-content ul {
+  padding-left: 1.2rem;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 0.75rem;
+}
+
+.about-photos {
+  margin-bottom: 1rem;
+}
+
+.site-footer {
+  border-top: 1px solid #d4ddea;
+  color: #4b5f79;
+  background: #fff;
+  padding: 1rem 0;
+}
+
+@media (max-width: 640px) {
+  .site-title {
+    font-size: 1.8rem;
+  }
+
+  .page h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-panel {
+    padding: 1rem;
+  }
+}
