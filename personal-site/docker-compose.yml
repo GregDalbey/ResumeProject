@@ -8,12 +8,7 @@ services:
  restart: unless-stopped
  expose:
  - "8080"
- labels:
- - traefik.enable=true
- - traefik.http.routers.personal-site.rule=Host(`gregdalbey.io`) || Host(`www.gregdalbey.io`)
- - traefik.http.routers.personal-site.entrypoints=websecure
- - traefik.http.routers.personal-site.tls.certresolver=letsencrypt
- - traefik.http.services.personal-site.loadbalancer.server.port=8080
+
  networks:
  - dokploy-network
 
