@@ -14,7 +14,5 @@ services:
     - traefik.http.routers.personal-site.entrypoints=websecure
     - traefik.http.routers.personal-site.tls.certresolver=letsencrypt
     - traefik.http.services.personal-site.loadbalancer.server.port=8080
-
     networks:
-      traefik-proxy:
-      external: true
+    - traefik-proxy
