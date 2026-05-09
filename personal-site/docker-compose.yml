@@ -18,5 +18,5 @@ services:
     - traefik-proxy
 
     networks:
-    traefik-proxy:
-    external: true
+      traefik-proxy:
+      external: true
