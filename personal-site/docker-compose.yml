@@ -8,3 +8,15 @@ services:
     ports:
       - "8080:8080"
     restart: unless-stopped
+    labels:
+    - traefik.enable=true
+    - traefik.http.routers.personal-site.rule=Host(`gregdalbey.io`) || Host(`www.gregdalbey.io`)
+    - traefik.http.routers.personal-site.entrypoints=websecure
+    - traefik.http.routers.personal-site.tls.certresolver=letsencrypt
+    - traefik.http.services.personal-site.loadbalancer.server.port=8080
+    networks:
+    - traefik-proxy
+
+    networks:
+    traefik-proxy:
+    external: true
