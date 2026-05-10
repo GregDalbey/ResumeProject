@@ -1,16 +1,10 @@
 services:
- personal-site:
- build:
- context: .
- dockerfile: Dockerfile
- image: gregory-dalbey-personal-site:latest
- container_name: personal-site
- restart: unless-stopped
- expose:
- - "8080"
- networks:
- - dokploy-network
-
-networks:
- dokploy-network:
- external: true
+  personal-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gregory-dalbey-personal-site:latest
+    container_name: personal-site
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
