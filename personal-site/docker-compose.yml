@@ -1,23 +1,21 @@
 services:
- personal-site:
- build:
- context: .
- dockerfile: Dockerfile
- image: gregory-dalbey-personal-site:latest
- container_name: personal-site
- restart: unless-stopped
- labels:
- - traefik.enable=true
- - traefik.http.routers.personal-site.rule=Host(`gregdalbey.io`) || Host(`www.gregdalbey.io`)
- - traefik.http.routers.personal-site.entrypoints=websecure
- - traefik.http.routers.personal-site.tls.certresolver=letsencrypt
- - traefik.http.services.personal-site.loadbalancer.server.port=8080
- networks:
- - dokploy-network
- - traefik-proxy
+  personal-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gregory-dalbey-personal-site:latest
+    container_name: personal-site
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.personal-site.rule=Host(`gregdalbey.io`) || Host(`www.gregdalbey.io`)"
+      - "traefik.http.routers.personal-site.entrypoints=websecure"
+      - "traefik.http.routers.personal-site.tls.certresolver=letsencrypt"
+      - "traefik.http.services.personal-site.loadbalancer.server.port=8080"
+      - "traefik.docker.network=dokploy-network"
+    networks:
+      - dokploy-network
 
 networks:
- dokploy-network:
- external: true
- traefik-proxy:
- external: true
+  dokploy-network:
+    external: true
