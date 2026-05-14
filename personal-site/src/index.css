@@ -275,8 +275,36 @@ a:hover {
   margin-bottom: 0.75rem;
 }
 
-.about-photos {
+.about-intro {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.1rem;
+  align-items: center;
   margin-bottom: 1rem;
+}
+
+.about-intro h3 {
+  margin: 0.2rem 0 0.55rem;
+}
+
+.about-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.about-profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 3px solid #d8e3f1;
+}
+
+.about-personal {
+  margin-top: 0.25rem;
+}
+
+.about-personal p:last-child {
+  margin-bottom: 0;
 }
 
 .site-footer {
@@ -297,5 +325,14 @@ a:hover {
 
   .hero-panel {
     padding: 1rem;
+  }
+
+  .about-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .about-profile-photo {
+    width: 128px;
+    height: 128px;
   }
 }
