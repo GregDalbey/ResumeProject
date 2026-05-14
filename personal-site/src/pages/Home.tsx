@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 export function HomePage() {
   return (
     <section className="page">
@@ -10,11 +8,6 @@ export function HomePage() {
           I help organizations modernize critical systems, reduce operational
           friction, and ship practical solutions that support growth.
         </p>
-        <div className="impact-row">
-          <span className="impact-chip">30+ years experience</span>
-          <span className="impact-chip">1,500 products/week publishing flow</span>
-          <span className="impact-chip">1M+ annual customer emails supported</span>
-        </div>
       </div>
 
       <div className="card-grid executive-cards">
@@ -41,17 +34,6 @@ export function HomePage() {
         </article>
       </div>
 
-      <div className="cta-row">
-        <Link to="/resume" className="button button-primary">
-          View Resume
-        </Link>
-        <Link to="/projects" className="button">
-          Featured Projects
-        </Link>
-        <Link to="/contact" className="button">
-          Contact
-        </Link>
-      </div>
     </section>
   )
 }

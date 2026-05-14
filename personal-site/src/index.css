@@ -66,8 +66,17 @@ a:hover {
 .header-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
+  gap: 1rem;
   margin-bottom: 0.95rem;
+}
+
+.header-link {
+  color: #bfdbfe;
+  text-decoration: underline;
+}
+
+.header-link:hover {
+  color: #dbeafe;
 }
 
 .main-nav {

@@ -17,19 +17,16 @@ function App() {
             pragmatic delivery.
           </p>
           <div className="header-actions">
-            <a href="mailto:gregory.dalbey@proton.me" className="button button-light">
+            <a href="mailto:gregory.dalbey@proton.me" className="header-link">
               Email
             </a>
             <a
               href="https://www.linkedin.com/in/greg-dalbey-4b59702/"
               target="_blank"
               rel="noreferrer"
-              className="button button-light"
+              className="header-link"
             >
               LinkedIn
-            </a>
-            <a href="/resume" className="button button-primary">
-              Resume
             </a>
           </div>
           <Nav />
