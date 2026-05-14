@@ -1,7 +1,7 @@
 import express from 'express'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { mkdtemp, rm } from 'node:fs/promises'
+import { mkdtemp, readFile, rm } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { mdToPdf } from 'md-to-pdf'
 
@@ -9,7 +9,8 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 const appRoot = join(__dirname, '..')
 const distDir = join(appRoot, 'dist')
-const resumeMarkdownPath = join(appRoot, 'content', 'resume', 'resume-2page.md')
+const publicResumeMarkdownPath = join(appRoot, 'content', 'resume', 'resume-2page.md')
+const fullResumeMarkdownPath = join(appRoot, 'content', 'resume', 'resume-full.md')
 const resumeStylesheetPath = join(appRoot, 'scripts', 'resume-pdf.css')
 const port = Number(process.env.PORT ?? 8080)
 
@@ -19,7 +20,7 @@ app.get('/api/health', (_req, res) => {
   res.json({ ok: true })
 })
 
-app.get('/api/resume.pdf', async (_req, res) => {
+async function downloadResumePdf(res, sourcePath) {
   const tempDir = await mkdtemp(join(tmpdir(), 'resume-pdf-'))
   const tempPdfPath = join(tempDir, 'Gregory-Dalbey-Resume.pdf')
 
@@ -32,7 +33,7 @@ app.get('/api/resume.pdf', async (_req, res) => {
     }
 
     const result = await mdToPdf(
-      { path: resumeMarkdownPath },
+      { path: sourcePath },
       {
         dest: tempPdfPath,
         stylesheet: resumeStylesheetPath,
@@ -71,6 +72,24 @@ app.get('/api/resume.pdf', async (_req, res) => {
       res.status(500).json({ error: 'Failed to generate resume PDF.' })
     }
   }
+}
+
+app.get('/api/resume.pdf', async (_req, res) => {
+  await downloadResumePdf(res, publicResumeMarkdownPath)
+})
+
+app.get('/api/full-resume.pdf', async (_req, res) => {
+  res.set('X-Robots-Tag', 'noindex, nofollow')
+  await downloadResumePdf(res, fullResumeMarkdownPath)
+})
+
+app.get('/api/full-resume.md', async (_req, res) => {
+  const markdown = await readFile(fullResumeMarkdownPath, 'utf8')
+
+  res
+    .set('X-Robots-Tag', 'noindex, nofollow')
+    .type('text/markdown')
+    .send(markdown)
 })
 
 app.use(express.static(distDir))

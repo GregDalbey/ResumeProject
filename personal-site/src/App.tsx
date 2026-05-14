@@ -17,7 +17,7 @@ function App() {
             pragmatic delivery.
           </p>
           <div className="header-actions">
-            <a href="mailto:greg.dalbey@gmail.com" className="button button-light">
+            <a href="mailto:gregory.dalbey@proton.me" className="button button-light">
               Email
             </a>
             <a
@@ -42,6 +42,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/resume" element={<ResumePage />} />
+          <Route path="/FullResume" element={<ResumePage variant="full" />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

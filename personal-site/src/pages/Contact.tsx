@@ -11,7 +11,7 @@ export function ContactPage() {
         <ul className="contact-list">
           <li>
             <strong>Email:</strong>{' '}
-            <a href="mailto:greg.dalbey@gmail.com">greg.dalbey@gmail.com</a>
+            <a href="mailto:gregory.dalbey@proton.me">gregory.dalbey@proton.me</a>
           </li>
           <li>
             <strong>LinkedIn:</strong>{' '}

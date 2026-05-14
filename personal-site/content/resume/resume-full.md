@@ -1,5 +1,5 @@
 # Gregory Dalbey
-Greater Madison, WI Area | gregory.dalbey@proton.me | [LinkedIn](https://www.linkedin.com/in/greg-dalbey-4b59702/)
+Madison, WI | gregory.dalbey@proton.me | (608) 636-6233 | [LinkedIn](https://www.linkedin.com/in/greg-dalbey-4b59702/)
 
 ## Senior Software Engineer
 
@@ -23,8 +23,8 @@ Senior Software Engineer with 30+ years of professional software development exp
 
 ## Professional Experience
 
-### Senior Software Engineer | Music Publishing Technology Company | Greater Madison, WI Area
-*Jun 2016 – Present*
+### Senior Software Engineer | Musicnotes | Madison, WI
+*Jun 2016 - Present*
 
 - Leading a multi-phase modernization of a mission-critical Access-based publishing workflow ("Push Process") that processes approximately 1,500 products weekly and powers the majority of product availability on the ecommerce site.
 - Driving architecture and migration strategy for lift-and-shift transformation from multiple entangled legacy systems to a cohesive platform connecting catalog metadata, digital ownership records, and royalties-related downstream dependencies.
@@ -36,10 +36,10 @@ Senior Software Engineer with 30+ years of professional software development exp
 - Automated publisher-facing report formatting, cutting manual effort from approximately 7 days per quarter to hours.
 - Migrated transactional email processing from Adobe ACS to Klaviyo while preserving business-critical customer communications.
 - Implemented Klaviyo APIs for order event tracking, customer segmentation, abandoned cart tracking, and lifecycle messaging.
-- Modernized partner purchasing workflows in .NET, removing obsolete dependencies and unlocking broader API usage.
+- Modernized Hal Leonard purchasing workflows in .NET 6, removing obsolete dependencies and unlocking broader API usage.
 - Delivered key customer-facing capabilities including Digital Music Books, Pro Membership, Educator Discount, and Wish List.
 
-#### Selected Initiatives
+#### Selected Initiatives (Musicnotes)
 
 **Push Process Modernization (2024-Present)**
 - Leading rewrite strategy for legacy Access publishing process and related data flows.
@@ -61,23 +61,23 @@ Senior Software Engineer with 30+ years of professional software development exp
 - Integrated Klaviyo order events, customer segmentation, abandoned cart tracking, and supporting API workflows.
 - Improved maintainability and flexibility for customer communication and ecommerce lifecycle messaging.
 
-### Software Engineer | Educational Media Technology Company | Greater Madison, WI Area
-*Jan 2015 – Jun 2016*
+### Software Engineer | Sonic Foundry | Madison, WI
+*Jan 2015 - Jun 2016*
 
 - Implemented accessibility features for media players used in educational and enterprise video environments.
 - Standardized keyboard control behavior across player variants to improve consistency/usability.
 - Collaborated with QA/support teams on customer-prioritized fixes and release quality.
 
-### Software Developer Consultant | Software Consulting Firm | Greater Madison, WI Area
-*Dec 2012 – Jan 2015*
+### Software Developer Consultant | Yahara Software | Madison, WI
+*Dec 2012 - Jan 2015*
 
 - Built and modernized client applications using ASP.NET MVC, jQuery, SQL Server, WPF, and SignalR.
 - Developed distributed online livestock auction functionality and real-time interaction workflows.
 - Integrated specialized medical automation systems with modern control/process interfaces.
 - Added custom air-flow data acquisition logic to industrial filter-testing software by analyzing and extending a legacy Access-based system for new test workflows.
 
-### Applications Developer | University Facilities Organization | Greater Madison, WI Area
-*Jan 2006 – Dec 2011*
+### Applications Developer | UW Facilities Planning & Management | Madison, WI
+*Jan 2006 - Dec 2011*
 
 - Redesigned time-tracking software serving 2,000+ university employees.
 - Maintained and enhanced university-wide parking registration systems.
