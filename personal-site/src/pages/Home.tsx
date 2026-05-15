@@ -72,6 +72,21 @@ export function HomePage() {
           something creative in front of people.
         </p>
       </div>
+
+      <div className="card about-site">
+        <h3>About This Site</h3>
+        <p>
+          I built this site with Cursor, using an incremental development process
+          to shape both the content and design. The application is built with
+          React, Vite, and a Node.js/Express service that makes it easy to render
+          my Markdown resume as a downloadable PDF.
+        </p>
+        <p>
+          The site runs in a Docker container on a Hostinger virtual private
+          server. Code pushes to GitHub are automatically picked up by the VPS,
+          built, and published.
+        </p>
+      </div>
     </section>
   )
 }

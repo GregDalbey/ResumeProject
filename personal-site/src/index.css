@@ -273,6 +273,10 @@ a:hover {
   margin-bottom: 0;
 }
 
+.about-site {
+  margin-top: 1rem;
+}
+
 .site-footer {
   border-top: 1px solid #d4ddea;
   color: #4b5f79;
