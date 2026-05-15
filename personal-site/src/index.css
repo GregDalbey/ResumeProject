@@ -89,7 +89,7 @@ a:hover {
   color: #d6deee;
   padding: 0.38rem 0.68rem;
   border-radius: 0.5rem;
-  border: 1px solid transparent;
+  border: 1px solid #2f4770;
 }
 
 .nav-link:hover {
