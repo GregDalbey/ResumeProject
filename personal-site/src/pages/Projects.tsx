@@ -1,9 +1,16 @@
-import { featuredProjects } from '../content/projects'
+// import { featuredProjects } from '../content/projects'
 
 export function ProjectsPage() {
   return (
     <section className="page">
       <h2>Featured Projects</h2>
+      <p className="lead">
+        Coming soon. I am collecting a few representative projects that show how
+        I approach practical software design, modernization, and creative
+        problem solving.
+      </p>
+
+      {/*
       <p className="lead">
         Selected GitHub projects highlighting AI-agentic workflows, design
         thinking, and practical implementation.
@@ -36,6 +43,7 @@ export function ProjectsPage() {
           </article>
         ))}
       </div>
+      */}
     </section>
   )
 }
