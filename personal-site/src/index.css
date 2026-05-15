@@ -132,39 +132,11 @@ a:hover {
   font-weight: 700;
 }
 
-.hero-panel {
-  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
-  border: 1px solid #d8e3f1;
-  border-radius: 1rem;
-  padding: 1.3rem 1.2rem;
-  box-shadow: 0 7px 22px rgba(10, 22, 50, 0.07);
-}
-
-.impact-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-}
-
-.impact-chip {
-  background: #e9f1ff;
-  color: #1a3f83;
-  border: 1px solid #c8dafb;
-  border-radius: 999px;
-  padding: 0.22rem 0.7rem;
-  font-size: 0.84rem;
-  font-weight: 600;
-}
-
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
   margin: 1rem 0 1.5rem;
-}
-
-.executive-cards {
-  margin-top: 1.25rem;
 }
 
 .card {
@@ -178,12 +150,6 @@ a:hover {
 .card h3 {
   margin-top: 0;
   color: #0f172a;
-}
-
-.cta-row {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
 }
 
 .button {
@@ -321,10 +287,6 @@ a:hover {
 
   .page h2 {
     font-size: 1.6rem;
-  }
-
-  .hero-panel {
-    padding: 1rem;
   }
 
   .about-intro {

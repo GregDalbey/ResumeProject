@@ -1,6 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { Nav } from './components/Nav'
-import { AboutPage } from './pages/About'
 import { ContactPage } from './pages/Contact'
 import { HomePage } from './pages/Home'
 import { ProjectsPage } from './pages/Projects'
@@ -36,7 +35,6 @@ function App() {
       <main className="container site-main">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/FullResume" element={<ResumePage variant="full" />} />
