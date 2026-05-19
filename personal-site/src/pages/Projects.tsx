@@ -5,9 +5,21 @@ export function ProjectsPage() {
     <section className="page">
       <h2>Featured Projects</h2>
       <p className="lead">
-        Coming soon. I am collecting a few representative projects that show how
-        I approach practical software design, modernization, and creative
-        problem solving.
+        Coming soon. 
+        
+        <br />
+        <br />
+        I am currently focusing my personal projects on AI-agentic workflows, design and implementation using Cursor.  The process 
+        is fascinating and educational.  There is a particular finnese to getting accurate results from the AI assisted process, 
+        requiring a mix of technical and creative thinking, human intuition and review - human-in-the-loop methodology.
+
+        <br />
+        <br />
+
+        Currently, I am working on a small commrece website, and an old-school text-based adventure game.
+        <br />
+        <br />
+        Projects can be made available upon request.
       </p>
 
       {/*
