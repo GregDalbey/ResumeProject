@@ -1,8 +1,6 @@
-# Gregory Dalbey - Product Engineering Cover Letter
-
 Gregory Dalbey  
 Madison, WI  
-[LinkedIn](https://www.linkedin.com/in/greg-dalbey-4b59702/) | gregory.dalbey@proton.me | 608 636 6233
+[LinkedIn](https://www.linkedin.com/in/greg-dalbey-4b59702/) | [gregory.dalbey@proton.me](mailto:gregory.dalbey@proton.me) | 608 636 6233
 
 Dear Hiring Team,
 
