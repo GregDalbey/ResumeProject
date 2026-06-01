@@ -85,7 +85,7 @@ Tech: Windows Service, C#, Sql Server Entity Framework
 
 ### Software Developer Consultant | Yahara Software | Madison, WI
 
-*Dec 2012 - Jan 2015*
+*Dec 2011 - Jan 2015*
 
 - Built and modernized client applications using ASP.NET MVC, jQuery, SQL Server, WPF, and SignalR.
 - Developed distributed online livestock auction functionality and real-time interaction workflows.
