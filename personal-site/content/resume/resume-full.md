@@ -45,7 +45,7 @@ Senior Software Engineer with 30+ years of professional software development exp
 
 **Push Process Modernization (2024-Present)**
 
-Tech: C# Windows Service, Web API
+Tech: C# Windows Service, Web API, Sql Server, Entity Framework
 
 - Leading rewrite strategy for legacy Access publishing process and related data flows.
 - Defining migration boundaries/phasing across upstream and downstream systems to reduce refactor risk.
@@ -53,7 +53,7 @@ Tech: C# Windows Service, Web API
 
 **Batch Royalties Processor**
 
-**Tech:** 
+Tech: C#, Windows Service, Sql Server, Entity Framework
 
 - Replaced a brittle Access-based reporting process with a resilient batch processor for quarterly publisher royalty reports.
 - Reduced a 24+ hour reporting run to under 2 hours while generating 5,000+ raw and professionally formatted reports.
@@ -61,11 +61,15 @@ Tech: C# Windows Service, Web API
 
 **Digital Music Books Publishing Platform (2022)**
 
+Tech: Blazor, Telerik Controls, C#, Entity Framework, Web API
+
 - Built a production prototype for DMB publishing, including schema design, Blazor application development, and backend publishing services.
 - Implemented publishing flow for metadata and digital assets (book files, thumbnails) to ecommerce systems.
 - Added Interactive DMB support by publishing interactive assets to Azure Blob Storage for post-purchase customer access.
 
 **Transactional Email / Klaviyo Migration**
+
+Tech: Windows Service, C#, Sql Server Entity Framework
 
 - Migrated transactional email workflows from Adobe ACS to Klaviyo.
 - Integrated Klaviyo order events, customer segmentation, abandoned cart tracking, and supporting API workflows.
