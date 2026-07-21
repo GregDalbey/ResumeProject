@@ -4,15 +4,7 @@ Madison, WI | [gregory.dalbey@proton.me](mailto:gregory.dalbey@proton.me) | (608
 
 ## Senior Software Engineer
 
-Senior Software Engineer with 30+ years of professional software development experience, including deep ownership of architecture, modernization, and delivery in high-impact systems. Over the last decade, focused on replacing fragile legacy applications with robust, maintainable platforms that improve business velocity and reduce risk. Known for pragmatic design, operational reliability, and close partnership with stakeholders across engineering and business teams.
-
-## Highlights
-
-- Leads modernization of business-critical systems with careful continuity planning
-- Designs and delivers full-stack solutions from schema to services to UI
-- Strong track record in performance, automation, and maintainability improvements
-- Bridges technical strategy and day-to-day delivery for high-dependency workflows
-- Active in modern development practices, including AI-assisted and agentic workflows
+Senior Software Engineer with 30+ years of professional software development experience, including deep ownership of architecture, modernization, and delivery in high-impact systems. Over the last decade, focused on replacing fragile legacy applications with robust, maintainable platforms that improve business velocity and reduce risk. 
 
 ## Core Technical Skills
 
