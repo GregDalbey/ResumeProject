@@ -13,7 +13,8 @@ Senior Software Engineer with 30+ years of professional software development exp
 - **Architecture & Delivery:** system design, migration planning, legacy refactoring, requirements translation
 - **Backend:** .NET 8+/.NET Core, ASP.NET MVC, Node.js, service design, batch processing, integration pipelines
 - **Frontend:** Blazor, MVC Razor, WPF, JavaScript, jQuery, React (working knowledge), Telerik
-- **Data:** SQL Server, Azure SQL, schema design
+- **Data:** SQL Server, Azure SQL, schema design, T-SQL / Stored Procedures, Entity Framework
+- **AI Agenic Development:** Cursor / Codex to aid in code analysis, review and development 
 - **Cloud & Security:** Azure Blob Storage, Azure Key Vault, Functions and App Servicies
 
 
