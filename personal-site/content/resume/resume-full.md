@@ -6,18 +6,14 @@ Madison, WI | [gregory.dalbey@proton.me](mailto:gregory.dalbey@proton.me) | (608
 
 Senior Software Engineer with 30+ years of professional software development experience, including deep ownership of architecture, modernization, and delivery in high-impact systems. Over the last decade, focusing on migrating fragile legacy applications to modern, scalable application stacks, working with stakeholders across departments to deliver crucial business value.  
 
-
-
 ## Core Technical Skills
 
-- **Architecture & Delivery:** system design, migration planning, legacy refactoring, requirements translation
-- **Backend:** .NET 8+/.NET Core, ASP.NET MVC, Node.js, service design, batch processing, integration pipelines
+- **Backend:** .NET 8+/.NET Core, ASP.NET MVC, Node.js, Windows Services, Powershell
 - **Frontend:** Blazor, MVC Razor, WPF, JavaScript, jQuery, React (working knowledge), Telerik
 - **Data:** SQL Server, Azure SQL, schema design, T-SQL / Stored Procedures, Entity Framework
 - **AI Agenic Development:** Cursor / Codex to aid in code analysis, review and development 
 - **Cloud & Security:** Azure Blob Storage, Azure Key Vault, Functions and App Servicies
-
-
+- **Architecture & Delivery:** system design, migration planning, legacy refactoring, requirements translation
 
 ## Professional Experience
 
@@ -41,7 +37,7 @@ Senior Software Engineer with 30+ years of professional software development exp
 
 
 
-#### Key Projects 
+#### Key Projects
 
 **Push Process Modernization** 
 
@@ -65,7 +61,7 @@ Tech: Blazor, Telerik Controls, C#, Entity Framework, Web API
 
 - Built a production prototype for DMB publishing, including schema design, Blazor application development, and backend publishing services.
 - Implemented new publishing flow for metadata and digital assets (book files, thumbnails) to ecommerce systems - dovetails into legacy production flow.
-- Integration into Azure Blob Storage to support new interactive book assets. 
+- Integration into Azure Blob Storage to support new interactive book assets.
 
 **Transactional Email / Klaviyo Migration**
 
