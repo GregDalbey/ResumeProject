@@ -11,7 +11,7 @@ Senior Software Engineer with 30+ years of professional software development exp
 - **Backend:** .NET 8+/.NET Core, ASP.NET MVC, Node.js, Windows Services, Powershell
 - **Frontend:** Blazor, MVC Razor, WPF, JavaScript, jQuery, React (working knowledge), Telerik / Kendo, Bootstrap
 - **Data:** SQL Server, Azure SQL, schema design, T-SQL / Stored Procedures, Entity Framework
-- Reporting: Crystal Reports, EPPlus
+- **Reporting**: Crystal Reports, EPPlus
 - **AI Agenic Development:** Cursor / Codex to aid in code analysis, review and development 
 - **Cloud & Security:** Azure Blob Storage, Azure Key Vault, Functions and App Servicies
 - **Architecture & Delivery:** system design, migration planning, legacy refactoring, requirements translation
