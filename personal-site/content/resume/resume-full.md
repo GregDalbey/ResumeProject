@@ -9,11 +9,14 @@ Senior Software Engineer with 30+ years of professional software development exp
 ## Core Technical Skills
 
 - **Backend:** .NET 8+/.NET Core, ASP.NET MVC, Node.js, Windows Services, Powershell
-- **Frontend:** Blazor, MVC Razor, WPF, JavaScript, jQuery, React (working knowledge), Telerik
+- **Frontend:** Blazor, MVC Razor, WPF, JavaScript, jQuery, React (working knowledge), Telerik / Kendo, Bootstrap
 - **Data:** SQL Server, Azure SQL, schema design, T-SQL / Stored Procedures, Entity Framework
+- Reporting: Crystal Reports, EPPlus
 - **AI Agenic Development:** Cursor / Codex to aid in code analysis, review and development 
 - **Cloud & Security:** Azure Blob Storage, Azure Key Vault, Functions and App Servicies
 - **Architecture & Delivery:** system design, migration planning, legacy refactoring, requirements translation
+
+
 
 ## Professional Experience
 
@@ -23,7 +26,7 @@ Senior Software Engineer with 30+ years of professional software development exp
 
 *Jun 2016 - Present*
 
-- Led design and implemention of royalties reporting batch processor - generating 5,000+ quarterly reports - reducing runtime 24+ hours to under 2 hours per cycle - reducing 7 employee-days of manual work to 4 hours - replacing legacy Access application
+- Led design and implemention of royalties reporting batch processor - generating 5,000+ quarterly reports - reducing runtime 24+ hours to under 2 hours per cycle - reducing 7 employee-days of manual work to 4 hours - replacing legacy Access application.  
 - Led design and implementation of transactional email processor responible for all customer facing emails (receipts, abandon cart, etc) - integrating with Klaviyo email provider
 - Leading modernization effort to convert essential Access-based product publishing workflow ("Push Process") responsible for publishing most products to ecommerce site.
 - Integration with Klaviyo APIs for order event tracking, customer segmentation, abandoned cart tracking, and lifecycle messaging.
@@ -33,7 +36,7 @@ Senior Software Engineer with 30+ years of professional software development exp
 - Implementing a pluggable configuration abstraction and Azure Key Vault integration to remove sensitive keys from application config - removing exposure of sensitive data to LLMs - enabling agentic development workflows.
 - Participation in Agile development and ceremonies
 - Cross-departmental collaboration to deliver business critical requirements
-- Development and maintanance of a wide variety of application written in C#, [ASP.Net](http://ASP.Net) MVC, WinForms, Classic ASP, Blazor, React / Typescript, Angular, Vanilla JavaScript
+- Development and maintanance of a wide variety of application written in C#, [ASP.Net](http://ASP.Net) MVC, WinForms, Classic ASP, Blazor, React / Typescript, Angular, Vanilla JavaScript, Bootstrap
 
 
 
@@ -41,7 +44,7 @@ Senior Software Engineer with 30+ years of professional software development exp
 
 **Push Process Modernization** 
 
-Tech: C# Windows Service, Web API, Sql Server, Entity Framework, Blazor
+Tech: C# Windows Service, Web API, Sql Server, Entity Framework, Blazor, Telerik / Kendo, Bootsrap
 
 - Leading rewrite strategy for legacy Access publishing process and related data flows.
 - Defining migration boundaries/phasing across upstream and downstream systems to reduce refactor risk.
@@ -49,7 +52,7 @@ Tech: C# Windows Service, Web API, Sql Server, Entity Framework, Blazor
 
 **Batch Royalties Processor**
 
-Tech: C#, Windows Service, Sql Server, Entity Framework
+Tech: C#, Windows Service, Sql Server, Entity Framework, Web API, Blazor, Telerik / Kendo, Bootsrap, EPPlus Excel reporting library
 
 - Replaced a brittle Access-based reporting process with a resilient batch processor for quarterly publisher royalty reports.
 - Reduced a 24+ hour reporting run to under 2 hours while generating 5,000+ raw and professionally formatted reports.
@@ -57,7 +60,7 @@ Tech: C#, Windows Service, Sql Server, Entity Framework
 
 **Digital Music Books Publishing Platform (2022)**
 
-Tech: Blazor, Telerik Controls, C#, Entity Framework, Web API
+Tech: C#, Windows Service, Sql Server, Entity Framework, Web API, Blazor / Kendo, Telerik, Bootsrap
 
 - Built a production prototype for DMB publishing, including schema design, Blazor application development, and backend publishing services.
 - Implemented new publishing flow for metadata and digital assets (book files, thumbnails) to ecommerce systems - dovetails into legacy production flow.
@@ -87,7 +90,7 @@ Tech: Windows Service, C#, Sql Server Entity Framework
 
 *Dec 2011 - Jan 2015*
 
-- Built and modernized client applications using ASP.NET MVC, jQuery, SQL Server, WPF, and SignalR.
+- Built and modernized client applications using ASP.NET MVC, jQuery, SQL Server, WPF, Telerik / Kendo, and SignalR.
 - Developed distributed online livestock auction functionality and real-time interaction workflows.
 - Integrated specialized medical automation systems with modern control/process interfaces.
 - Added custom air-flow data acquisition logic to industrial filter-testing software by analyzing and extending a legacy Access-based system for new test workflows.
@@ -98,6 +101,7 @@ Tech: Windows Service, C#, Sql Server Entity Framework
 
 *Jan 2006 - Dec 2011*
 
+- Dot Net Nuke development using: Web Forms, Crystal Reports, Sql Server, Javascript.
 - Redesigned time-tracking software serving 2,000+ university employees.
 - Maintained and enhanced university-wide parking registration systems.
 - Migrated and improved departmental registration/portal applications.
